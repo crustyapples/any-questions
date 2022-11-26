@@ -2,9 +2,18 @@ from http.client import HTTPException
 from fastapi import FastAPI
 from questions_app import generate_questions, CHAR_LIMIT
 from mangum import Mangum
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 handler = Mangum(app)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/generate_questions")
 async def generate_questions_api(prompt: str):
