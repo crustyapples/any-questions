@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aws-cdk-lib": "^2.51.1",
+    "dotenv": "^16.0.3"
+  }
+}
