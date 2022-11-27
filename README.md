@@ -2,6 +2,8 @@
 
 This is an application that generates questions using OpenAI from a users input. 
 
+![image](https://user-images.githubusercontent.com/24990448/204139452-daaf91ff-802c-40ba-a0a3-b07573822499.png)
+
 ## Tech Stack
 
 #### Backend Stack
