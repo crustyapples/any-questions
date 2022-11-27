@@ -25,11 +25,12 @@ const Results: React.FC<ResultsProps> = (props) => {
         );
     }
 
+
   return (
     <>
       <div>
       {resultSection("Who you're asking: ", <div className="text-xl font-bold text-yellow-900">{props.prompt}</div>)}
-      {resultSection("Questions generated: ", <div className="text-lg font-bold text-[#422C12]">{questionsElements}</div>)}
+      {resultSection("Questions generated: ", <div className="text-lg text-[#422C12]">{questionsElements}</div>)}
       </div>
       <button 
       className="bg-gradient-to-r from-yellow-900 to-yellow-600 disabled:opacity-50 text-white w-full p-2 rounded-md text-lg"
