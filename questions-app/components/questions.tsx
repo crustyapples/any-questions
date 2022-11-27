@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "./form";
 import Results from "./results";
+import Footer from "./footer";
 import Image from "next/image";
 import logo from "../public/questions-app.png"
 
@@ -66,7 +67,9 @@ const Questions: React.FC = () => {
 
           {displayedElement}
         </div>
+        <Footer/>
       </div>
+      
     </div>
   );
 };
