@@ -1,6 +1,6 @@
 # Any Questions?: An OpenAI project
 
-This is an application that generates questions using OpenAI from a users input. 
+I always hate the awkward silences that follow when a speaker transitions to QnA. This is an applciation that makes it convenient to generate questions that get the conversation going! It generates questoins using OpenAI's GPT3 model upon receiving an input about who the questions are meant for.
 
 ![image](https://user-images.githubusercontent.com/24990448/204139565-63fe4653-7151-4dc7-9317-5415b8533df5.png)
 
